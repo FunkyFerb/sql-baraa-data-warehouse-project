@@ -8,7 +8,7 @@ Script Purpose:
 	Sets up three schemas within the database: 'bronze', and 'silver', 'gold'.
 
 WARNING:
-	Running this script will drop the entire 'DtaWarehouse' database if it exists.
+	Running this script will drop the entire 'DataWarehouse' database if it exists.
 	All data in the database will be permanently deleted. 
 	Proceed with caution and endure you have proper backups before running this script.
 */
