@@ -113,10 +113,10 @@ BEGIN
 		PRINT '-------------------------------';
 
 		SET @start_time = GETDATE();
-		PRINT '>> Truncating Table: bronze.erp_px_cat_g1v1;';
-		TRUNCATE TABLE bronze.erp_px_cat_g1v1;
+		PRINT '>> Truncating Table: bronze.erp_px_cat_g1v2;';
+		TRUNCATE TABLE bronze.erp_px_cat_g1v2;
 
-		PRINT '>> Inserting Data Into: bronze.erp_px_cat_g1v1';
+		PRINT '>> Inserting Data Into: bronze.erp_px_cat_g1v2';
 		BULK INSERT bronze.erp_px_cat_g1v1
 		FROM 'C:\Users\morto\Documents\SQL_Projects\sql-data-warehouse-project-main\sql-data-warehouse-project-main\datasets\source_erp\PX_CAT_G1V2.csv'
 		WITH (
